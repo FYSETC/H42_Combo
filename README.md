@@ -8,7 +8,7 @@ Regarding communication and peripheral expansion, the H42_V1.0 features an onboa
 When operating in CAN communication mode, the H42_V1.0 supports an ambient operating temperature of up to 125°C, making it well-suited for applications that demand high thermal tolerance and system stability.
 
 > [!IMPORTANT] 
-- Since there is no 125 degree Celsius USB-HUB chip, the 125 degree Celsius operating environment is limited to CANBUS mode；
+>- Since there is no 125 degree Celsius USB-HUB chip, the 125 degree Celsius operating environment is limited to CANBUS mode；
 Klipper currently does not support 125 degree Celsius accelerometers, so the 125 degree Celsius operating environment does not include accelerometers. The default version of H42 is ADXL345, which has a maximum operating temperature of 85 degrees Celsius. The 105 degree Celsius ADXL345-EP version is optional, but it is more expensive
 
 # Features
